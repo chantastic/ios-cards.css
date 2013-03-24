@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>chantastic — [ poc ] home views</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body id="hammer-enabled">
+
+    <!-- header / navigation -->
+    <header class="bar-title">
+        <h1 id="navTitle" class="title"> Card #1 </h1>
+        <a href="#" data-ignore="push" id="cardToggle" class="button"> Toggle </a>
+    </header>
+
+    <!-- card #1 -->
+    <div class="content animated is-visible" data-title="Card #1">
+        <p class="message">
+            Tap <span class="message--standout">Toggle</span> above to flip through cards.
+        </p>
+    </div>
+
+    <!-- card #2 -->
+    <div class="content animated" data-title="Card #2">
+        <p class="message">
+            Neat! Again?
+        </p>
+    </div>
+
+    <!-- card #3 -->
+    <div class="content animated" data-title="Card #3">
+        <p class="message">
+            Thanks for looking <br>
+        </p>
+        <p class="message">
+            <a href="http://twitter.com/chantastic" target="_blank"> @chantastic </a>
+        </P>
+    </div>
+
+    <!-- scripts -->
+    <script src="scripts/vendor/jquery.1.9.1.min.js"></script>
+    <script src="scripts/vendor/jquery.hammer.min.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
